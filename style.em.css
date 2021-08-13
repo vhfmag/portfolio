@@ -28,7 +28,7 @@ img.foto {
   width: 18em;
   height: 18em;
   border-radius: 50%;
-  border: 0.25em solid #ffc700;
+  border: 0.25em solid blue;
   margin-bottom: -6em;
   margin-right: 1.5em;
 }
@@ -171,8 +171,8 @@ ol {
 }
 
 .projetos ul {
-  display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   margin: -0.75rem;
 }
 
@@ -211,4 +211,8 @@ footer {
   color: white;
   padding: 3.6rem;
   text-align: center;
+}
+.imagem img {
+  width: 100%;
+  height: 100%;
 }
